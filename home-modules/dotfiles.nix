@@ -53,7 +53,8 @@ in
       "pipewire/pipewire.conf.d/loopback.conf".source = "${dots}/pipewire/pipewire.conf.d/loopback.conf";
 
       # ── Kitty ──────────────────────────────────────────────────────────
-      "kitty".source = "${dots}/kitty";
+      "kitty/kitty.conf".source = "${dots}/kitty/kitty.conf";
+      "kitty/diff.conf".source = "${dots}/kitty/diff.conf";
 
       # ── Spicetify (user.css only — color.ini written at runtime by caelestia-cli) ──
       "spicetify/Themes/caelestia/user.css".source = "${dots}/spicetify/Themes/caelestia/user.css";
