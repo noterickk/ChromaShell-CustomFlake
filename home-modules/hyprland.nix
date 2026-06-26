@@ -15,7 +15,7 @@ in
       # ChromaShell's Hyprland config is Lua (hyprland.lua + config/*.lua).
       # mkDefault lets a user override the config style from their own home.nix.
       configType      = lib.mkDefault "lua";
-      extraConfig     = "";
+      extraConfig     = "# ChromaShell manages Hyprland config via xdg.configFile (hyprland.lua)";
     };
 
     # Erstellt ~/.config/hypr/custom/ mit leeren Dateien falls noch nicht vorhanden.
